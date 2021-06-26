@@ -7,3 +7,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.form-button {
+    border-radius: 20px;
+}
+
+.form-button:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-out;
+}
+
+.form-control {
+    border-radius: 15px;
+}

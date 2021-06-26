@@ -5,20 +5,23 @@
 
 .btn-lg {
     border-radius: 10px;
-    background: #61297c;;
+    background:#3F0D00;
     color: white;
     height: 45px;
     font-size: 12pt;
-    box-shadow: #d6d2c4 5px 5px 7px;
   }
   
   .btn-lg:hover {
-    background: #ffb81c;
-    border-color: #ffb81c;
-    color: black;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-out;
     font-weight: bold;
   }
 
   .bg-roxo {
     background: #FFFFFF; 
+  }
+
+  .santana {
+    border: 5px;
+    box-shadow: #d6d2c4 10px 10px 10px 10px;
   }
